@@ -10,7 +10,7 @@ public:
         return parsedString;
     }
     bool checkPalindrome(string s,int start,int end){
-        if(start>end){
+        if(start>=end){
             return true;
         }
         if(s[start]!=s[end]){
